@@ -1,6 +1,6 @@
 ---
 layout: portfolio_entry
 image: /znelson/Public/img/car.jpg
-title: new car
+title: future car
 ---
 My future car...

@@ -1,25 +1,28 @@
+---
+url: "/znelson/Public"
+---
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Zachary
 Nelson, Engineer </title>
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="{{ page.url }}/css/styles.css" />
 </head>
 <body>
   <div id="main">
     <header>
       <h1> Zachary Nelson </h1>
     <header>
-    <nav role="navigation">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>	
-        <li><a href="/portfolio/">Portfolio</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-    {{ content }}
+      <nav role="navigation">
+        <ul>
+          <li><a href="{{ page.url }}/">Home</a></li>
+          <li><a href="{{ page.url }}/about">About</a></li>	
+          <li><a href="{{ page.url }}/portfolio">Portfolio</a></li>
+          <li><a href="{{ page.url }}/contact">Contact</a></li>
+        </ul>
+      </nav>
+      {{ content }}
     <footer>
       <p>&copy; Zachary Nelson 2012 | All Rights Reserved. </p>
     </footer>

@@ -23,14 +23,19 @@ a:hover {
   background: rgba(255, 255, 255, 0.4);
 }
 header {
-  padding: 0 10px;
+  padding: 0 0;
   overflow: hidden;
 }
 h1 {
   margin: 0;
+  padding: 10px;
 }
 h2 {
   margin: 0;
+}
+p {
+  margin: 5px;
+  padding: 5px;
 }
 nav ul, ul.entries {
   list-style-type: none;
@@ -38,9 +43,7 @@ nav ul, ul.entries {
 nav li a {
   float: left;
   margin: 5px;
-}
-content {
-  padding: 10px;
+  padding: 5px;
 }
 ul.entries li {
   position: relative;
