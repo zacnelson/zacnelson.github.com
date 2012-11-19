@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Portfolio
-add_url: /znelson/Public
 ---
 <section class="content">
   <h2>{{ page.title }}</h2>
@@ -10,7 +9,7 @@ add_url: /znelson/Public
 <ul class="entries">
   {% for post in site.posts %}
   <li>
-    <a href="{{ page.add_url }}{{ post.url }}">
+    <a href="{{ post.url }}">
       <img src="{{ post.image }}" />
       <h3>{{ post.title }}</h3>
     </a>

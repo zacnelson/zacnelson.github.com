@@ -1,5 +1,5 @@
 ---
-url: "/znelson/Public"
+
 ---
 <!DOCTYPE html>
 <html>
@@ -7,7 +7,7 @@ url: "/znelson/Public"
   <meta charset=utf-8 />
   <title> {% if page.title %} {{ page.title }} | {% endif %} Zachary
 Nelson, Engineer </title>
-  <link rel="stylesheet" href="{{ page.url }}/css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body>
   <div id="main">
@@ -16,10 +16,10 @@ Nelson, Engineer </title>
     <header>
       <nav role="navigation">
         <ul>
-          <li><a href="{{ page.url }}/">Home</a></li>
-          <li><a href="{{ page.url }}/about">About</a></li>	
-          <li><a href="{{ page.url }}/portfolio">Portfolio</a></li>
-          <li><a href="{{ page.url }}/contact">Contact</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>	
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
       {{ content }}

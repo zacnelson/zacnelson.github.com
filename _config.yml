@@ -1,5 +1,4 @@
 auto: true
 markdown: rdiscount
 pygments: true
-baseurl: /znelson/Public
-
+safe: true
